@@ -28,7 +28,7 @@ jobs:
             }
             
             const releaseIssueNumber = parseInt(releaseIssueMatch[1]);
-            const releaseRepoName = 'sona-test-1'; // Change this to your release repo name
+            const releaseRepoName = 'sona-test-1'; // Change this to your release repo name 
             const owner = context.repo.owner;
             
             console.log(`Found linked release issue: ${releaseRepoName}#${releaseIssueNumber}`);
